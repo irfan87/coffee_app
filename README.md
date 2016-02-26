@@ -8,4 +8,4 @@
 
 - More gems will put together with Ionic Framework
 
-	> KEEP CALM AND DRINK COFFEE :coffee::coffee::coffee:
+ **_KEEP CALM AND DRINK COFFEE_** :coffee::coffee::coffee:
