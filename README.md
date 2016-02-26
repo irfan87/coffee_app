@@ -1,4 +1,4 @@
-# Coffee Shop App
+# Coffee Shop App :coffee: :coffee:
 
 - This app is more to trace the nearby coffee shop.
 
