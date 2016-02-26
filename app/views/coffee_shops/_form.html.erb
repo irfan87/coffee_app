@@ -1,0 +1,42 @@
+<%= form_for @coffee_shop do |f| %>
+  <div>
+    <%= f.label :name, 'Coffee Shop Name' %>
+    <%= f.text_field :name, placeholder: 'Coffee Shop Name' %>
+  </div>
+  <div>
+    <%= f.label :address, 'Coffee Shop Address' %>
+    <%= f.text_area :address, placeholder: 'Coffee Shop Address' %>
+  </div>
+  <div>
+    <%= f.label :area %>
+    <%= f.text_field :area, placeholder: 'Coffee Shop Area' %>
+  </div>
+  <div>
+    <%= f.label :region, 'Coffee Shop Region' %>
+    <%= f.text_field :region, placeholder: 'Coffee Shop Region' %>
+  </div>
+  <div>
+    <%= f.label :postcode, 'Postcode' %>
+    <%= f.number_field :postcode, placeholder: 'Postcode' %>
+  </div>
+  <div>
+    <%= f.label :website %>
+    <%= f.text_field :website, placeholder: 'Coffee Shop Website' %>
+  </div>
+  <div>
+    <%= f.label :email %>
+    <%= f.email_field :email, placeholder: 'Coffee Shop email' %>
+  </div>
+  <div>
+    <%= f.label :facebook_acc, 'Facebook' %>
+    <%= f.text_field :facebook_acc, placeholder: 'Coffee Shop Facebook' %>
+  </div>
+  <div>
+    <%= f.label :instagram_acc, 'Instagram' %>
+    <%= f.text_field :instagram_acc, placeholder: 'Coffee Shop Instagram' %>
+  </div>
+  <div>
+    <%= f.submit 'Save Coffee Shop' %>
+    <%= link_to 'Back', coffee_shops_path %>
+  </div>
+<% end %>
