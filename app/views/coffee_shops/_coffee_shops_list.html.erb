@@ -1,0 +1,11 @@
+<div>
+  <ul>
+    <% @coffee_shops.each do |cs| %>
+      <li><%= link_to cs.name, coffee_shop_path(cs) %></li>
+      <ul>
+        <li><%= cs.facebook_acc %></li>
+        <li><%= cs.instagram_acc %></li>
+      </ul>
+    <% end %>
+  </ul>
+</div>
