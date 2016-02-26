@@ -1,4 +1,4 @@
-# Coffee Shop App :coffee: :coffee:
+# Coffee Shop App
 
 - This app is more to trace the nearby coffee shop.
 
@@ -7,3 +7,5 @@
 - This web-app is for platform usage.
 
 - More gems will put together with Ionic Framework
+
+	> KEEP CALM AND DRINK COFFEE :coffee::coffee::coffee:
