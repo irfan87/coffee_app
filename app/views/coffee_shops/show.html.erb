@@ -2,5 +2,6 @@
   <h1>Coffee Shop Information</h1>
   <%= render 'coffee_shops/coffee_shop_info' %>
   <%= link_to 'Edit Coffee Shop', edit_coffee_shop_path(@coffee_shop) %>
+  <%= link_to 'Delete Coffee Shop', coffee_shop_path(@coffee_shop), method: :delete, data: {confirm: 'Are you confirm want to remove ' + @coffee_shop.name + '?' } %>
   <%= link_to 'Back', coffee_shops_path %>
 </div>
