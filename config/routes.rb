@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  root 'coffee_shops#index'
+  
+  devise_for :users
+  root 'welcome_page#index'
 
   resources :coffee_shops
 
